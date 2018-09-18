@@ -22,7 +22,7 @@ class TodoForm extends Component {
     render(){
         return(
             <div>
-                <h1>TODO FORM</h1>
+                <h1>TODO FORM!</h1>
                 <input value={this.state.input} onChange={this.handleInput}/>
                 <button type='button' onClick={() => this.submitInput(this.state.input)}>Submit</button>
             </div>
