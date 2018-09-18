@@ -1,0 +1,8 @@
+.App{
+  width: 200px;
+  margin: auto;
+}
+
+.active {
+  text-decoration: line-through;
+}
